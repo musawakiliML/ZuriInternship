@@ -8,7 +8,9 @@ print(computer_input)
 flag = True
 user_input = input("Pick an Option:('R', 'P' or 'S')")
 
+# loop for the game
 while flag:
+    # check user input() validation
     while user_input not in options:
         print("Error: Invalid Input Try Again:")
         user_input = input()
