@@ -3,9 +3,9 @@ import random
 options = ["R", "P", "S"]
 # to get the desired output of Player(Rock) : CPU(Paper)
 options_selection = {'R': 'Rock', 'P': 'Paper', 'S': 'Scissor'}
-computer_input = random.choice(options)
-print(computer_input)
+
 flag = True
+
 user_input = input("Pick an Option:('R', 'P' or 'S')")
 
 # loop for the game
@@ -15,7 +15,7 @@ while flag:
         print("Error: Invalid Input Try Again:")
         user_input = input()
 
-    #computer_input = random.choice(options)
+    computer_input = random.choice(options)
 
     print(
         f"Player ({options_selection[user_input]}):CPU ({options_selection[computer_input]})")
