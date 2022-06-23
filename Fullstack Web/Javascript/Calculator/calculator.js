@@ -14,14 +14,18 @@ let number_2 = Number(prompt("Enter Second Number:"))
 // program logic and expression
 
 if (operations == "+"){
-    window.alert(number + number_2)
+    var result = number + number_2
+    window.alert("Answer: " + result)
 }
 else if(operations == "-"){
-    window.alert(number - number_2)
+    var result = number - number_2
+    window.alert("Answer: " + result)
 }
 else if(operations == "*"){
-    window.alert(number * number_2)
+    var result = number * number_2
+    window.alert("Answer: " + result)
 }
 else if(operations == "/"){
-    window.alert(number / number_2)
+    var result = number - number_2
+    window.alert("Answer: " + result)
 }
