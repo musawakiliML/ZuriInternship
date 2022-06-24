@@ -17,3 +17,10 @@ console.log(country);
 window.alert("Name: " + my_name + "\nHeight: " + height + "\nCountry: " + country);
 //window.alert(height);
 //window.alert(country);
+
+
+// Using document.write 
+
+//document.write("Name: " + my_name );
+//document.write("Height: " + height);
+//document.write("Country: " + country);
