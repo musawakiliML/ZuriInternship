@@ -5,11 +5,11 @@ The calculator should be able to perform basic operations like Addition, Subtrac
 
 // user input, two number and operation
 
-let number = Number(prompt("Enter First Number:"))
+let number = Number(prompt("Enter First Number:"));
 
-var operations = prompt("Choose Operation:(+, -, *, /)")
+var operations = prompt("Choose Operation:(+, -, *, /)");
 
-let number_2 = Number(prompt("Enter Second Number:"))
+let number_2 = Number(prompt("Enter Second Number:"));
 
 // program logic and expression
 
